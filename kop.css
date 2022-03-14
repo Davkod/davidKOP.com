@@ -1,0 +1,260 @@
+html
+{
+	height: 100%; 
+	margin:0px;
+	
+	
+}
+
+body
+{
+	
+	margin-left:0px;
+	height: 100%;
+	padding:0;
+	list-style:0;
+	margin:0;
+	
+	
+}
+
+
+/*Kezelőfelület*/
+.wrapper
+{
+	display:flex;
+	height: 200%;
+	margin-left:0px;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+}
+
+nav
+{
+flex-basis:auto;	
+background-color:wheat;
+margin-left:0px;
+text-align:left;
+margin:0px;
+padding:0px;
+}
+
+nav ul
+{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+
+nav a
+{
+	text-decoration: none;
+	display:block;
+	padding:10px 20px;
+	margin:0px;
+	
+}
+
+nav a:hover
+{
+	background-color:BlanchedAlmond
+}
+main
+{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	width:85%;
+	background-image: url(hatter.png)";
+}
+
+
+	
+
+
+/*Index*/
+
+.kep img
+{
+	margin-left:80px;
+	width:300px;
+	height:300px;
+	
+	display:flex;
+	
+	margin-left:0px;
+	text-align:left;
+	
+}
+div.kep
+{
+	width:300px;
+	height:300px;
+}
+
+.kep:hover img {
+	transform: scale(1.5, 1.5);
+	z-index: 9;
+	
+}
+h1
+{
+	height:40px;
+	width:370px;
+}
+.tovabb
+{
+	width:370px;
+	margin-left:600px;
+}
+
+
+/*Infó*/
+
+.info
+{
+	margin-left:333px;
+}
+
+
+/*Kurzy*/
+
+.kurzy
+{
+	margin-left:333px;
+	margin-right:100px;
+	
+}
+.office img
+{
+	margin-left:10px;
+}
+/*Certifikat*/
+
+.certifikat
+{
+	margin-left:333px;
+	
+}
+.certkep
+{
+	width: 300px;
+	height:500px;
+}		
+
+/*Zhrnutie*/
+
+.zhrnutie
+{
+	margin-left:400px;
+	
+}
+/*Aktualita*/
+
+.aktualita
+{
+	margin-left:200px;
+}
+
+/*Referencie*/
+
+.referencie
+{
+	margin-left:400px;
+	
+}
+
+/*Kontakt*/
+.kontakt
+{
+	
+}
+
+/*Regisztráció/Belépés*/
+
+
+.prihlasenie
+{
+	margin-left: 450px;
+	
+}
+
+a
+{
+text-decoration: none;
+		
+
+}
+a:hover
+{
+	color:blue;
+}
+
+.registracia
+{
+	text-decoration: none;
+}
+
+
+.naspat
+{
+		text-decoration: none;
+		margin-left: 40px;
+
+}
+a
+{
+		text-decoration: none;
+		margin-left: 180px;
+}
+a:hover
+{
+	color:blue;
+}
+
+
+
+/*Lebegő kép*/
+
+.lebego 
+{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 400px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.lebego img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.lebego:hover img,
+.lebego.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+/*Icon pack */
+
+i
+{
+	width: 16px;
+	text-align: center;
+	margin-right:20px;
+	display: flex;
+	flex:30%;
+	align-self: flex-start;
+	color:black;
+	
+}
+
+.quiz
+{
+	margin-left:10px;
+}
